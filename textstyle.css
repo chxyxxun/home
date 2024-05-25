@@ -51,7 +51,7 @@ ul {
 	height: 35px;
 	border-radius: 100px;
 	border: 1.5px solid white;
-	background: white;
+	background: none;
 	text-align: center;
 	display: flex;
 	align-items: center;
