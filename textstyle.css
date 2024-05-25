@@ -157,7 +157,8 @@ footer {
 
 	section {
 		display: block;
-		padding: 15px;	
+		padding: 15px;
+		
 	}
 
 	img {
@@ -170,6 +171,11 @@ footer {
 	p {
 		font-size: 14px;
 		line-height: 30px;
+		margin: 15px;
+	}
+
+	h2 {
+		margin: 15px;
 	}
 
 	.d2 {
