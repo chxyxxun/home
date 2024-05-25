@@ -92,6 +92,12 @@ section {
 	margin: 30px;
 }
 
+.d2 {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+
 .top {
 	font-size: 18px;
 	width: 50px;
@@ -162,6 +168,10 @@ footer {
 
 	p {
 		font-size: 14px;
+	}
+
+	.d2 {
+		left: 20px;
 	}
 
 	footer {
