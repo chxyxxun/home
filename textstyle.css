@@ -169,13 +169,15 @@ footer {
 	}
 
 	p {
-		font-size: 14px;
+		font-size: 15px;
 		line-height: 30px;
-		margin: 15px;
+		margin-left: 40px;
+		margin-right: 40px;
 	}
 
 	h2 {
-		margin: 15px;
+		margin-left: 40px;
+		margin-right: 40px;
 	}
 
 	.d2 {
@@ -192,4 +194,17 @@ footer {
 		margin-left: 65px;
 		font-size: 10px;
 	}
+}
+
+@media screen and (max-width: 600px) {
+	p {
+		font-size: 14px;
+		line-height: 30px;
+		margin: 5px;
+	}
+
+	h2 {
+		margin: 5px;
+	}
+
 }
