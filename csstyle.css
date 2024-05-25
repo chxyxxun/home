@@ -1,0 +1,32 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	text-decoration: none;
+	word-break: keep-all;
+	color: black;
+}
+
+.bg {
+	background: white;
+}
+
+.yc {
+	top: 0px;
+	width: 150px;
+	margin: 40px;
+}
+
+p {
+	color: gray;
+	text-align: center;
+	margin: 200px;
+}
+
+
+@media screen and (max-width: 900px) {
+	.yc {
+		width: 115px;
+		position: static;
+		margin: 25px;
+	}
