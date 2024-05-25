@@ -1,0 +1,43 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	text-decoration: none;
+	word-break: keep-all;
+	font-size: 35px;
+	color: black;
+	background: #CEF279;
+}
+
+img {
+	top: 0px;
+	width: 150px;
+	margin: 25px;
+	position: fixed;
+}
+
+header {
+	margin-top: 150px;
+}
+
+
+h1 {
+	text-align: center;
+	margin: 20px;
+	margin-bottom: 60px;
+
+}
+
+ul {
+	text-align: center;
+}
+
+.d1 {
+	
+	padding: 20px;
+	
+}
+
+.d1:hover {
+	color: white;
+}
