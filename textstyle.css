@@ -72,13 +72,14 @@ img {
 }
 
 h2 {
-	padding: 20px;
+	padding: 25px;
 	writing-mode: ;
 }
 
 p {
-	padding: 20px;
-	line-height: 30px;
+	padding: 25px;
+	padding-top: 5px;
+	line-height: 35px;
 }
 
 article {
