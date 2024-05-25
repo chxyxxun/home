@@ -85,18 +85,14 @@ footer {
 	.yc {
 		width: 25vw;
 		position: static;
+		margin: 25px;
 	}
 
-	header {
-		display: flex;
-	}
+	
 
 	h1 {
-		text-align: center;
-		top: px;
-		margin: 40px;
+		margin: 25px;
 		margin-left: 65px;
-	  
 	}
 
 	h1,
