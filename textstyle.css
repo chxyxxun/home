@@ -11,17 +11,28 @@
 	background: white;
 }
 
+header {
+	display: flex;
+}
+
 .yc {
 	top: 0px;
 	width: 150px;
 	margin: 40px;
-	position: fixed;
 }
 
+
 h1 {
+	margin-left: 35vw;
 	text-align: center;
-	margin-top: 80px;
-	margin-left: 270px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h1,
+h2 {
+	font-size: 23px;
 }
 
 nav {
@@ -29,9 +40,10 @@ nav {
 	margin-left: 40px;
 	position: fixed;
 }
+
 .d1 {
 	margin: 20px;
-	font-size: 20px;
+	font-size: 18px;
 	width: 80px;
 	height: 35px;
 	border-radius: 100px;
@@ -89,9 +101,11 @@ footer {
 	}
 
 	h1 {
-		margin: 25px;
-		margin-left: 65px;
-		margin-bottom: 0px;
+		margin-left: 20vw;
+		text-align: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 
 	h1,
@@ -115,20 +129,19 @@ footer {
 		margin: 0px;
 		padding: 0px;
 		margin-left: 65px;
-		margin-right: 20px;
-		margin-top: px;
+		
 		
 	}
 
 	section {
 		display: block;
 		padding: 15px;
-		margin-left: px;
+		
 		
 	}
 
 	img {
-		width: 60vw;
+		width: 68vw;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
