@@ -41,8 +41,12 @@ nav {
 	position: fixed;
 }
 
+ul {
+	margin-left: 20px;
+}
+
 .d1 {
-	margin: 20px;
+	margin: 15px;
 	font-size: 18px;
 	width: 80px;
 	height: 35px;
@@ -62,11 +66,12 @@ nav {
 
 img {
 	width: 40vw;
+
 }
 
 h2 {
 	padding: 20px;
-	writing-mode: sideways-rl;
+	writing-mode: ;
 }
 
 p {
@@ -100,14 +105,6 @@ footer {
 		margin: 25px;
 	}
 
-	h1 {
-		margin-left: 20vw;
-		text-align: center;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-
 	h1,
 	h2 {
 		font-size: 18px;
@@ -128,16 +125,12 @@ footer {
 	article {
 		margin: 0px;
 		padding: 0px;
-		margin-left: 65px;
-		
-		
+		margin-left: 65px;	
 	}
 
 	section {
 		display: block;
-		padding: 15px;
-		
-		
+		padding: 15px;	
 	}
 
 	img {
@@ -153,5 +146,6 @@ footer {
 
 	footer {
 		margin-left: 65px;
+		font-size: 10px;
 	}
 }
