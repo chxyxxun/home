@@ -1,6 +1,6 @@
 * {
 	padding: 0px;
-	margin: px;
+	margin: 0px;
 	list-style: none;
 	text-decoration: none;
 	word-break: keep-all;
@@ -86,35 +86,52 @@ footer {
 		width: 25vw;
 		position: static;
 	}
+
+	header {
+		display: flex;
+	}
+
 	h1 {
 		text-align: center;
-		margin-top: 0px;
+		margin-top: 75px;
 		margin-left: 65px;
-		font-size: 24px;
 	}
+
+	h1,
+	h2 {
+		font-size: 20px;
+	}
+
 	nav {
 		margin-top: 80px;
 		margin-left: 5px;
 	}
+
 	.d1 {
 		margin: 10px;
 		font-size: 10px;
 		width: 40px;
 		height: 17px;
 	}
+
 	article {
 		margin: 0px;
 		padding: 0px;
 		margin-left: 65px;
 		margin-top: 120px;
+		
 	}
+
 	section {
 		display: block;
-		padding: 0px;
-		margin-left: 65px;
+		padding: 15px;
+		margin-left: px;
+		
 	}
+
 	img {
 		width: 60vw;
+		display: block;
 		margin-left: auto;
 		margin-right: auto;
 	}
