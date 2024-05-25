@@ -23,7 +23,7 @@ p {
 	margin-top: 250px;
 }
 
-.d2 {
+.d3 {
 	position: fixed;
 	bottom: 20px;
 	left: 20px;
@@ -53,6 +53,11 @@ p {
 		width: 115px;
 		position: static;
 		margin: 25px;
+	}
+
+	.d3 {
+		bottom: 33px;
+		left: 33px;
 	}
 
 	.back {
