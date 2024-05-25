@@ -38,11 +38,12 @@ h2 {
 nav {
 	margin-top: 60px;
 	margin-left: 40px;
-	position: fixed;
 }
 
 ul {
+	writing-mode: ;
 	margin-left: 20px;
+	position: fixed;
 }
 
 .d1 {
@@ -65,7 +66,8 @@ ul {
 }
 
 img {
-	width: 40vw;
+	width: 35vw;
+	object-fit : contain;
 
 }
 
@@ -88,6 +90,24 @@ section {
 	display: flex;
 	padding: 40px;
 	margin: 30px;
+}
+
+.top {
+	font-size: 18px;
+	width: 50px;
+	height: 25px;
+	border-radius: 5px;
+	border: 1.5px solid black;
+	background: white;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.top:hover {
+	border: 1.5px solid #1FDA11;
+	color: #1FDA11;
 }
 
 footer {
