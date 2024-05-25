@@ -83,7 +83,7 @@ footer {
 
 @media screen and (max-width: 900px) {
 	.yc {
-		width: 25vw;
+		width: 115px;
 		position: static;
 		margin: 25px;
 	}
