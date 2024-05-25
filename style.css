@@ -22,8 +22,7 @@
 	justify-content: center;
 }
 
-.d1:hover,
-.d2:hover {
+.d1:hover {
 	color: #1FDA11;
 	border: 1.5px solid #1FDA11;
 }
@@ -54,14 +53,10 @@ img {
 	font-size: 20px;
 }
 
-.d2 {
-	height: 35px;
-	border-radius: 100px;
-	border: 1.5px solid white;
-	text-align: center;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+.d2:hover {
+	color: #1FDA11;
+	text-decoration: underline;
+	text-underline-offset: 4px;
 }
 
 footer {
@@ -88,9 +83,5 @@ footer {
 
 	.n2 {
 		font-size: 16px;
-	}
-
-	li {
-		margin: 25px;
 	}
 }
