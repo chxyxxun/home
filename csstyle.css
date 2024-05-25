@@ -54,3 +54,9 @@ p {
 		position: static;
 		margin: 25px;
 	}
+
+	.back {
+		font-size: 12px;
+		width: 33px;
+		height: 16px;
+	}
