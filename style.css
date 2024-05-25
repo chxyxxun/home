@@ -23,8 +23,8 @@
 }
 
 .d1:hover {
-	color: #1FDA11;
-	border: 1.5px solid #1FDA11;
+	color: pink;
+	border: 1.5px solid pink;
 }
 
 ul {
@@ -78,7 +78,7 @@ footer {
 	}
 
 	.d1:hover {
-		border: 1.3px solid #1FDA11;
+		border: 1.3px solid pink;
 	}
 
 	.n2 {
