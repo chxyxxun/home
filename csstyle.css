@@ -23,6 +23,30 @@ p {
 	margin-top: 250px;
 }
 
+.d2 {
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+}
+
+.back {
+	font-size: 18px;
+	width: 50px;
+	height: 25px;
+	border-radius: 5px;
+	border: 1.5px solid black;
+	background: white;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.back:hover {
+	border: 1.5px solid #1FDA11;
+	color: #1FDA11;
+}
+
 
 @media screen and (max-width: 900px) {
 	.yc {
