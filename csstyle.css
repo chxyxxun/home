@@ -25,14 +25,14 @@ p {
 
 .d3 {
 	position: fixed;
-	bottom: 20px;
-	left: 20px;
+	bottom: 25px;
+	left: 25px;
 }
 
 .back {
 	font-size: 18px;
-	width: 50px;
-	height: 25px;
+	width: 46px;
+	height: 22px;
 	border-radius: 5px;
 	border: 1.5px solid black;
 	background: white;
