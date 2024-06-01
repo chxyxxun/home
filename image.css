@@ -119,3 +119,23 @@ footer > p {
 		margin: 10px;
 	}
 }
+
+@media screen and (max-width: 650px) {
+	.d2 {
+		bottom: 47px;
+		left: 20px;
+	}
+
+	.d3 {
+		bottom: 20px;
+		left: 20px;
+	}
+
+	.top,
+	.back {
+		font-size: 12px;
+		width: 33px;
+		height: 16px;
+	}
+
+}
