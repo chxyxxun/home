@@ -16,6 +16,7 @@ h1 {
 
 img {
 	width: 60vw;
+	border-radius: 15px;
 	display: block;
 	margin: auto;
 	margin-top: 30px;
@@ -161,7 +162,7 @@ li {
 	}
 
 	li {
-		margin: 5px;
+		margin: 8px;
 	}
 
 	.d2 {
