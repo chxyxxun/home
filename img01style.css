@@ -165,6 +165,11 @@ li {
 		margin: 8px;
 	}
 
+	img,
+	p {
+		width: 70vw;
+	}
+
 	.d2 {
 		bottom: 47px;
 		left: 20px;
