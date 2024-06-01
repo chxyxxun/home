@@ -121,6 +121,10 @@ footer > p {
 }
 
 @media screen and (max-width: 650px) {
+	img {
+		width: 100px;
+	}
+	
 	.d2 {
 		bottom: 47px;
 		left: 20px;
