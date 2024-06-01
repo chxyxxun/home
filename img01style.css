@@ -110,6 +110,7 @@ li {
 
 	li {
 		width: 5vw;
+		margin: 10px;
 	}
 
 	.d1 {
@@ -156,7 +157,11 @@ li {
 
 @media screen and (max-width: 650px) {
 	ul {
-	    margin-right: 35px;
+	    margin-right: 36px;
+	}
+
+	li {
+		margin: 5px;
 	}
 
 	.d2 {
