@@ -10,6 +10,7 @@
 h1 {
 	text-align: center;
 	margin-top: 30px;
+	margin-bottom: 40px;
 	font-size: 25px;
 }
 
@@ -131,7 +132,6 @@ footer > p {
 	}
 
 	article {
-		margin-top: 40px;
 		margin: 0px;
 	}
 
