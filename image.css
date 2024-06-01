@@ -112,7 +112,7 @@ footer > p {
 	}
 
 	img {
-		width: 200px;
+		width: 250px;
 	}
 
 	section {
@@ -120,11 +120,19 @@ footer > p {
 	}
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 500px) {
 	img {
 		width: 100px;
 	}
-	
+
+	section {
+		margin: 0px;
+	}
+
+	article {
+		margin: 0px;
+	}
+
 	.d2 {
 		bottom: 47px;
 		left: 20px;
