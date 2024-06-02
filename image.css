@@ -23,7 +23,8 @@ p {
 
 img {
 	width: 280px;
-	margin: 20px;
+	margin: 0px;
+	margin-bottom: 0px;
 	border-radius: 15px;
 }
 
@@ -38,15 +39,16 @@ article {
 
 section {
 	display: flex;
+	margin: 20px;
 }
 
 .i1 {
 	overflow: hidden;
-	transition: transform .5s;
+	transition: transform .6s;
 }
 
 .i1:hover {
-	transform: scale(1.1);
+	transform: scale(1.15);
 	overflow: hidden;
 	cursor: pointer;
 }
@@ -123,7 +125,7 @@ footer > p {
 
 @media screen and (max-width: 680px) {
 	img {
-		width: 150px;
+		width: 180px;
 	}
 }
 
