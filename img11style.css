@@ -120,12 +120,13 @@ p {
 
 footer {
 	text-align: center;
-	font-size: 12px;
-	margin: 50px;
+	margin-top: 60px;
+	margin-bottom: 25px;
 }
 
 footer > p {
 	color: gray;
+	font-size: 12px;
 }
 
 
@@ -225,10 +226,6 @@ footer > p {
 		font-size: 12px;
 		width: 33px;
 		height: 16px;
-	}
-
-	footer {
-		font-size: 10px;
 	}
 }
 

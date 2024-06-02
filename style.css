@@ -80,11 +80,12 @@ img {
 footer {
 	text-align: center;
 	margin-top: 80px;
-	font-size: 12px;
+	margin-bottom: 25px;
 }
 
 footer > p {
 	color: gray;
+	font-size: 12px;
 }
 
 @media screen and (max-width: 900px) {

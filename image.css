@@ -87,12 +87,13 @@ section {
 
 footer {
 	text-align: center;
-	font-size: 12px;
-	margin: 50px;
+	margin-top: 60px;
+	margin-bottom: 25px;
 }
 
 footer > p {
 	color: gray;
+	font-size: 12px;
 }
 
 @media screen and (max-width: 900px) {
@@ -130,10 +131,6 @@ footer > p {
 @media screen and (max-width: 680px) {
 	img {
 		width: 180px;
-	}
-
-	footer {
-		font-size: 10px;
 	}
 }
 

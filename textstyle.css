@@ -127,11 +127,11 @@ footer {
 	margin-top: 200px;
 	margin-left: 270px;
 	text-align: center;
-	font-size: 12px;
 }
 
 footer > p {
 	color: gray;
+	font-size: 12px;
 }
 
 
@@ -183,7 +183,6 @@ footer > p {
 	}
 
 	p {
-		font-size: ;
 		line-height: 30px;
 		margin-left: 40px;
 		margin-right: 40px;
@@ -214,7 +213,6 @@ footer > p {
 	footer {
 		margin-top: 120px;
 		margin-left: 65px;
-		font-size: 10px;
 	}
 }
 
