@@ -144,6 +144,10 @@ p {
 }
 
 @media screen and (max-width: 900px) {
+	h1 {
+		font-size: 22px;
+	}
+
 	ul {
 	    font-size: 14px;
 	}
@@ -173,9 +177,7 @@ p {
 }
 
 @media screen and (max-width: 580px) {
-	h1 {
-		font-size: 30px;
-	}
+	
 
 	li {
 		width: 10vw;
@@ -223,6 +225,10 @@ p {
 }
 
 @media screen and (max-width: 500px) {
+	h1 {
+		font-size: 20px;
+	}
+	
 	.s1 {
 		margin-right: 0px;
 	}

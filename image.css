@@ -96,6 +96,10 @@ footer > p {
 }
 
 @media screen and (max-width: 900px) {
+	h1 {
+		font-size: 22px;
+	}
+
 	.d2 {
 		bottom: 60px;
 		left: 33px;
