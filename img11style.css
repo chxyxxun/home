@@ -56,7 +56,7 @@ img {
 	border-radius: 15px;
 	display: block;
 	margin: auto;
-	margin-top: 30px;
+	margin-top: 0px;
 }
 
 article {
@@ -144,10 +144,6 @@ p {
 	    font-size: 14px;
 	}
 
-	img {
-		width: vw;
-	}
-
 	p {
 		width: 65vw;
 		font-size: 14px;
@@ -172,7 +168,7 @@ p {
 	}
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 600px) {
 	h1 {
 		font-size: 22px;
 	}
@@ -189,11 +185,19 @@ p {
 	article {
 		margin-left: 50px;
 		margin-right: 50px;
+		
 	}
 
 	section {
 		margin: 5px;
-		
+	}
+
+	.s1 {
+		margin-right: 100px;
+	}
+
+	.s2 {
+		margin-left: 100px;
 	}
 
 	.d2 {
