@@ -13,6 +13,10 @@ h1 {
 	font-size: 25px;
 }
 
+.h1:hover {
+	color: #CC33CC;
+}
+
 nav {
 	margin-top: 0px;
 	margin-bottom: 50px;
@@ -168,9 +172,9 @@ p {
 	}
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 580px) {
 	h1 {
-		font-size: 22px;
+		font-size: 30px;
 	}
 
 	li {

@@ -122,9 +122,14 @@ footer > p {
 	}
 }
 
+
 @media screen and (max-width: 680px) {
 	img {
 		width: 180px;
+	}
+
+	footer {
+		font-size: 10px;
 	}
 }
 
