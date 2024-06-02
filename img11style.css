@@ -55,16 +55,7 @@ li {
 	color: #CC33CC;
 }
 
-img {
-	width: 20vw;
-	border-radius: 15px;
-	display: block;
-	margin: auto;
-	margin-top: 0px;
-}
-
 article {
-	margin: px;
 	display: flex;
 	flex-wrap: wrap;
 	align-content: center;
@@ -73,6 +64,14 @@ article {
 
 section {
 	margin: 10px;
+}
+
+img {
+	width: 20vw;
+	border-radius: 15px;
+	display: block;
+	margin: auto;
+	margin-top: 0px;
 }
 
 p {
@@ -119,8 +118,15 @@ p {
 	color: #CC33CC;
 }
 
+footer {
+	text-align: center;
+	font-size: 12px;
+	margin: 50px;
+}
 
-
+footer > p {
+	color: gray;
+}
 
 
 
@@ -177,8 +183,6 @@ p {
 }
 
 @media screen and (max-width: 580px) {
-	
-
 	li {
 		width: 10vw;
 		margin: 8px;
@@ -222,13 +226,17 @@ p {
 		width: 33px;
 		height: 16px;
 	}
+
+	footer {
+		font-size: 10px;
+	}
 }
 
 @media screen and (max-width: 500px) {
 	h1 {
 		font-size: 20px;
 	}
-	
+
 	.s1 {
 		margin-right: 0px;
 	}
