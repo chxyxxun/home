@@ -1,0 +1,209 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	text-decoration: none;
+	word-break: keep-all;
+	color: black;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 30px;
+	font-size: 25px;
+}
+
+nav {
+	margin-top: 0px;
+}
+
+ul {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+li {
+	text-align: center;
+	width: 5vw;
+	margin: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.d1 {
+	margin: 15px;
+	width: 80px;
+	height: 35px;
+    border-radius: 100px;
+    border: 1.5px solid white;
+	background: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.d1:hover {	
+	border: 1.5px solid #CC33CC;
+	color: #CC33CC;
+}
+
+img {
+	width: 20vw;
+	border-radius: 15px;
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+}
+
+article {
+	margin: px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+}
+
+section {
+	margin: 10px;
+}
+
+p {
+	width: 50vw;
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+	line-height: 35px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+
+.d2 {
+	position: fixed;
+	bottom: 25px;
+	right: 25px;
+}
+
+.d3 {
+	position: fixed;
+	bottom: 25px;
+	left: 25px;
+}
+
+.top,
+.back {
+	font-size: 18px;
+	width: 46px;
+	height: 22px;
+	border-radius: 100px;
+	border: 1.5px solid black;
+	background: none;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+}
+
+.top:hover,
+.back:hover {
+	border: 1.5px solid #CC33CC;
+	color: #CC33CC;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+	li {
+		width: 5vw;
+		margin: 10px;
+	}
+
+	.d1 {
+		margin: 15px;
+		width: 30px;
+		height: 25px;
+	    border-radius: 100px;
+	    border: 1.5px solid white;
+		background: none;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	ul {
+	    font-size: 14px;
+	}
+
+	img {
+		width: 180px;
+	}
+
+	p {
+		width: 65vw;
+		font-size: 14px;
+		line-height: 33px;
+	}
+
+	.d2 {
+		bottom: 60px;
+		left: 33px;
+	}
+
+	.d3 {
+		bottom: 33px;
+		left: 33px;
+	}
+
+	.top,
+	.back {
+		font-size: 12px;
+		width: 33px;
+		height: 16px;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	h1 {
+		font-size: 22px;
+	}
+
+	li {
+		margin: 8px;
+	}
+
+	img {
+		width: 150px;
+	}
+
+	section {
+		margin: 5px;
+	}
+
+	.d2 {
+		bottom: 47px;
+		left: 20px;
+	}
+
+	.d3 {
+		bottom: 20px;
+		left: 20px;
+	}
+
+	.top,
+	.back {
+		font-size: 12px;
+		width: 33px;
+		height: 16px;
+	}
+
+}
