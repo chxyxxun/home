@@ -216,5 +216,14 @@ p {
 		width: 33px;
 		height: 16px;
 	}
+}
 
+@media screen and (max-width: 500px) {
+	.s1 {
+		margin-right: 50px;
+	}
+
+	.s2 {
+		margin-left: 50px;
+	}
 }
