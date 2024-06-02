@@ -64,6 +64,7 @@ ul {
 }
 
 img {
+	border-radius: 100vw;
 	width: 35vw;
 	object-fit : contain;
 }
@@ -135,7 +136,7 @@ footer > p {
 }
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
 	.yc {
 		width: 115px;
 		position: static;
@@ -176,7 +177,8 @@ footer > p {
 	}
 
 	img {
-		width: 68vw;
+		border-radius: 100vw;
+		width: 60vw;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
@@ -184,13 +186,13 @@ footer > p {
 
 	p {
 		line-height: 30px;
-		margin-left: 40px;
-		margin-right: 40px;
+		margin-left: 80px;
+		margin-right: 80px;
 	}
 
 	h2 {
-		margin-left: 40px;
-		margin-right: 40px;
+		margin-left: 80px;
+		margin-right: 80px;
 	}
 
 	.d2 {
@@ -220,6 +222,16 @@ footer > p {
 	section {
 		margin: 45px;
 	}
+
+	h2 {
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+
+	img {
+		width: 68vw;
+	}
+
 	p {
 		font-size: 15px;
 		line-height: 30px;
