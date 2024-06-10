@@ -41,7 +41,13 @@ li {
 	margin-top: 20px;
 }
 
+.d1 {
+	text-decoration: underline white;
+	text-underline-offset: 5px;
+}
+
 .d1:hover {
+	transition: all 0.3s;
 	text-decoration: underline;
 	text-underline-offset: 5px;
 	color: #FFB900;
@@ -109,6 +115,7 @@ p {
 .back:hover {
 	border: 1.5px solid #FFB900;
 	color: #FFB900;
+	transition: all 0.3s;
 }
 
 
