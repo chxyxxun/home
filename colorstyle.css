@@ -1,0 +1,182 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+	word-break: keep-all;
+	color: white;
+}
+
+header {
+	position: fixed;
+	margin: 20px;
+	width: calc(100vw / 3)vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	letter-spacing: 5px;
+}
+
+p,
+h2 {
+	font-size: 20px;
+}
+
+p {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	margin: 20px;
+	transition: transform .6s;
+	letter-spacing: 3px;
+}
+
+p:hover {
+	transform: scale(1.05);
+	text-decoration: underline;
+	text-underline-offset: 5px;
+}
+
+
+article {
+	display: flex;
+}
+
+section {
+	width: calc(100vw / 6);
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+section:hover {	
+	background-color: black;
+
+}
+
+
+h2 {
+	writing-mode: vertical-rl;
+	letter-spacing: 5px;
+}
+
+
+.c1 {
+	background-color: #FFB900;
+}
+.d1:hover {
+	color: #FFB900;
+}
+
+.c2 {
+	background-color: darkorange;
+}
+.d2:hover {
+	color: darkorange;
+}
+
+.c3 {
+	background-color: orangered;
+}
+.d3:hover {
+	color: orangered;
+}
+
+.c4 {
+	background-color: #FF9CBB;
+}
+.d4:hover {
+	color: #FF9CBB;
+}
+
+.c5 {
+	background-color: seagreen;
+}
+.d5:hover {
+	color: seagreen;
+}
+
+.c6 {
+	background-color: dodgerblue;
+}
+.d6:hover {
+	color: dodgerblue;
+}
+
+
+.d0 {
+	position: fixed;
+	bottom: 25px;
+	left: 25px;
+}
+
+.back {
+	font-size: 18px;
+	width: 46px;
+	height: 22px;
+	border-radius: 100px;
+	border: 1.5px solid white;
+	background: none;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	transition: transform .6s;
+}
+
+.back:hover {
+	transform: scale(1.1);
+}
+
+
+
+@media screen and (max-width: 920px) {
+	
+
+	h1 {
+		font-size: 24px;
+	}
+
+	h2 {
+		writing-mode: horizontal-tb;
+		letter-spacing: 3px;
+	}
+
+	
+
+	ul {
+		margin-left: 10vw;
+	}
+
+	li {
+	width: 25vw;
+}
+
+	article {
+		display: block;
+	}
+
+	section {
+		height: calc(100vh / 6);
+		width: 100vw;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	p,
+	h2 {
+		font-size: 15px;
+	}
+
+	h1 {
+		font-size: 20px;
+	}
+}
