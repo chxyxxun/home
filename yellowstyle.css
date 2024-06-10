@@ -140,4 +140,13 @@ p {
 
 	}
 
+	img {
+		width: 22vw;
+	}
+
+	p {
+		width: 60vw;
+		line-height: 32px;
+	}
+
 }
