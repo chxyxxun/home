@@ -137,17 +137,19 @@ h2 {
 
 @media screen and (max-width: 920px) {
 	
-
 	h1 {
 		font-size: 24px;
+		writing-mode: vertical-rl;
+	}
+
+	p {
+		writing-mode: vertical-rl;
 	}
 
 	h2 {
 		writing-mode: horizontal-tb;
 		letter-spacing: 3px;
 	}
-
-	
 
 	ul {
 		margin-left: 10vw;
