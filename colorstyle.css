@@ -9,8 +9,7 @@
 
 header {
 	position: fixed;
-	margin: 20px;
-	width: calc(100vw / 3)vw;
+	margin: 30px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -29,7 +28,7 @@ p {
 	position: fixed;
 	top: 0px;
 	right: 0px;
-	margin: 20px;
+	margin: 30px;
 	transition: transform .6s;
 	letter-spacing: 3px;
 }
