@@ -15,6 +15,7 @@ h1 {
 
 .h1:hover {
 	color: #CC33CC;
+	transition: all 0.3s;
 }
 
 nav {
@@ -37,6 +38,17 @@ li {
 	justify-content: center;
 }
 
+.d0 {
+	color: #CC33CC;
+	width: 80px;
+	height: 35px;
+	border-radius: 100px;
+	border: 1.5px solid #CC33CC;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 
 .d1 {
 	margin: 15px;
@@ -51,8 +63,12 @@ li {
 }
 
 .d1:hover {	
+	width: 80px;
+	height: 35px;
+    border-radius: 100px;
 	border: 1.5px solid #CC33CC;
 	color: #CC33CC;
+	transition: all 0.3s;
 }
 
 article {
@@ -68,7 +84,7 @@ section {
 
 img {
 	width: 20vw;
-	border-radius: 300px;
+	border-radius: 10px;
 	display: block;
 	margin: auto;
 	margin-top: 0px;
@@ -116,6 +132,7 @@ p {
 .back:hover {
 	border: 1.5px solid #CC33CC;
 	color: #CC33CC;
+	transition: all 0.3s;
 }
 
 footer {

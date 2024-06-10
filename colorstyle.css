@@ -4,7 +4,7 @@
 	list-style: none;
 	text-decoration: none;
 	word-break: keep-all;
-	color: white;
+	color: black;
 }
 
 header {
@@ -52,15 +52,11 @@ section {
 	justify-content: center;
 }
 
-section:hover {	
-	background-color: black;
-
-}
-
 
 h2 {
 	writing-mode: vertical-rl;
 	letter-spacing: 5px;
+	font-weight: lighter;
 }
 
 
@@ -106,6 +102,16 @@ h2 {
 	color: dodgerblue;
 }
 
+.c1:hover,
+.c2:hover,
+.c3:hover,
+.c4:hover,
+.c5:hover,
+.c6:hover {
+	transition: all 1.2s;
+	background-color: white;
+}
+
 
 .d0 {
 	position: fixed;
@@ -118,7 +124,7 @@ h2 {
 	width: 46px;
 	height: 22px;
 	border-radius: 100px;
-	border: 1.5px solid white;
+	border: 1.5px solid black;
 	background: none;
 	text-align: center;
 	display: flex;

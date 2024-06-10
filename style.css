@@ -25,6 +25,7 @@
 .d1:hover {
 	color: pink;
 	border: 1.5px solid pink;
+	transition: all 0.3s;
 }
 
 ul {
@@ -53,28 +54,40 @@ img {
 	font-size: 20px;
 }
 
+.d5,
+.d2,
+.d3,
+.d4 {
+	text-decoration: underline white;
+	text-underline-offset: 4px;
+}
+
 .d2:hover {
 	color: #1FDA11;
 	text-decoration: underline;
 	text-underline-offset: 4px;
+	transition: all 0.3s;
 }
 
 .d3:hover {
 	color: #CC33CC;
 	text-decoration: underline;
 	text-underline-offset: 4px;
+	transition: all 0.3s;
 }
 
 .d4:hover {
 	color: #FF9933;
 	text-decoration: underline;
 	text-underline-offset: 4px;
+	transition: all 0.3s;
 }
 
 .d5:hover {
 	color: #3399CC;
 	text-decoration: underline;
 	text-underline-offset: 4px;
+	transition: all 0.3s;
 }
 
 footer {

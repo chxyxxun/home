@@ -62,17 +62,19 @@ ul {
 .d1:hover {	
 	border: 1.5px solid #1FDA11;
 	color: #1FDA11;
+	transition: all 0.3s;
 }
 
 img {
-	border-radius: 100vw;
-	width: 35vw;
+	border-radius: 50vw;
+	margin-bottom: 13px;
+	width: 30vw;
 	object-fit : contain;
 }
 
 h2 {
 	padding: 20px;
-	writing-mode: ;
+	padding-top: 7px;
 }
 
 p {
@@ -123,6 +125,7 @@ section {
 .back:hover {
 	border: 1.5px solid #1FDA11;
 	color: #1FDA11;
+	transition: all 0.3s;
 }
 
 footer {
@@ -178,7 +181,6 @@ footer > p {
 	}
 
 	img {
-		border-radius: 100vw;
 		width: 60vw;
 		display: block;
 		margin-left: auto;

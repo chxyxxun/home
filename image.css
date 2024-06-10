@@ -83,6 +83,7 @@ section {
 .back:hover {
 	border: 1.5px solid #CC33CC;
 	color: #CC33CC;
+	transition: all 0.3s;
 }
 
 footer {
