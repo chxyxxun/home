@@ -52,3 +52,19 @@ p {
 	border: 1.5px solid #FF9933;
 	color: #FF9933;
 }
+
+@media screen and (max-width: 500px) {
+	.back {
+		font-size: 12px;
+		width: 33px;
+		height: 16px;
+	}
+
+	h1 {
+		font-size: 22px;
+	}
+
+	p {
+		font-size: 14px;
+	}
+ }
