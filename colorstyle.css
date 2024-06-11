@@ -17,6 +17,7 @@ header {
 
 h1 {
 	letter-spacing: 5px;
+	font-weight: normal;
 }
 
 p,
@@ -61,45 +62,45 @@ h2 {
 
 
 .c1 {
-	background-color: #FFB900;
+	background-color: indianred;
 }
 .d1:hover {
-	color: #FFB900;
+	color: crimson;
 }
 
 .c2 {
-	background-color: darkorange;
+	background-color: lightsalmon;
 }
 .d2:hover {
 	color: darkorange;
 }
 
 .c3 {
-	background-color: orangered;
+	background-color: khaki;
 }
 .d3:hover {
-	color: orangered;
+	color: #FFB900;
 }
 
 .c4 {
-	background-color: #FF9CBB;
+	background-color: darkseagreen;
 }
 .d4:hover {
-	color: #FF9CBB;
-}
-
-.c5 {
-	background-color: seagreen;
-}
-.d5:hover {
 	color: seagreen;
 }
 
+.c5 {
+	background-color: lightsteelblue;
+}
+.d5:hover {
+	color: steelblue;
+}
+
 .c6 {
-	background-color: dodgerblue;
+	background-color: pink;
 }
 .d6:hover {
-	color: dodgerblue;
+	color: #FF9CBB;
 }
 
 .c1:hover,
@@ -139,6 +140,11 @@ h2 {
 	h1 {
 		font-size: 24px;
 		writing-mode: vertical-rl;
+	}
+
+	p,
+	h2 {
+		font-size: 20px;
 	}
 
 	p {

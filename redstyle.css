@@ -16,7 +16,7 @@ header {
 
 
 h1 {
-	color: #FFB900;
+	color: crimson;
 	letter-spacing: 5px;
 	position: fixed;
 	right: 0px;
@@ -47,11 +47,11 @@ li {
 	transition: all 0.3s;
 	text-decoration: underline;
 	text-underline-offset: 5px;
-	color: #FFB900;
+	color: crimson;
 }
 
 h2 {
-	color: #FFB900;
+	color: crimson;
 	margin-left: 50px;
 	margin-top: 50px;
 	letter-spacing: 3px;
@@ -115,8 +115,8 @@ p {
 
 .top:hover,
 .back:hover {
-	border: 1.5px solid #FFB900;
-	color: #FFB900;
+	border: 1.5px solid crimson;
+	color: crimson;
 	transition: all 0.3s;
 }
 
