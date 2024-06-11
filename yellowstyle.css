@@ -168,6 +168,13 @@ p {
 		margin-right: 22px;
 	}
 
+	.top,
+	.back {
+		font-size: 12px;
+		width: 33px;
+		height: 16px;
+	}
+
 	nav {
 		margin-right: 30px;
 		margin-top: 10px;
