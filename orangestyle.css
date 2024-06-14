@@ -122,19 +122,12 @@ section {
 	margin-top: 80px;
 }
 
-.d2 {
-	position: fixed;
-	bottom: 25px;
-	right: 25px;
-}
-
 .d3 {
 	position: fixed;
 	bottom: 25px;
 	left: 25px;
 }
 
-.top,
 .back {
 	font-size: 18px;
 	width: 46px;
@@ -149,7 +142,6 @@ section {
 	padding-top: 2px;
 }
 
-.top:hover,
 .back:hover {
 	border: 1.5px solid darkorange;
 	color: darkorange;
@@ -201,7 +193,14 @@ section {
 
 	.bexel {
 		width: 15vw;
+	}
+
 }
 
-
+@media screen and (max-width: 500px) {
+	.back {
+		font-size: 12px;
+		width: 33px;
+		height: 16px;
+	}
 }

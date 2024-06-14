@@ -67,19 +67,12 @@ p {
 	margin-top: 150px;
 }
 
-.d2 {
-	position: fixed;
-	bottom: 25px;
-	right: 25px;
-}
-
 .d3 {
 	position: fixed;
 	bottom: 25px;
 	left: 25px;
 }
 
-.top,
 .back {
 	font-size: 18px;
 	width: 46px;
@@ -94,7 +87,6 @@ p {
 	padding-top: 2px;
 }
 
-.top:hover,
 .back:hover {
 	border: 1.5px solid crimson;
 	color: crimson;
@@ -117,11 +109,17 @@ p {
 	}
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 500px) {
 	p {
 		font-size: 3vh;
 		line-height: 50px;
 		width: 80vw;
 		margin-top: 25px;
+	}
+
+	.back {
+		font-size: 12px;
+		width: 33px;
+		height: 16px;
 	}
 }
