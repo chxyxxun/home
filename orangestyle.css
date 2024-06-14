@@ -7,83 +7,118 @@
 	color: black;
 }
 
-
-
-header {
-	margin-bottom: 50px;
-	text-align: right;
-}
-
-
 h1 {
+	position: fixed;
 	color: darkorange;
 	letter-spacing: 5px;
-	position: fixed;
-	right: 0px;
-	margin-right: 42px;
+	margin: 25px;
+	margin-left: 50px;
+	font-weight: normal;
 }
 
 nav {
-	text-align: right;
-	margin: 25px;
-	margin-right: 50px;
 	position: fixed;
-	right: 0px;
-	top: 100px;
+	margin: 25px;
 	font-size: 17px;
+	top: 5px;
+	right: 25px;
+	margin-left: 50px;
+	font-size: 22px;
+}
+
+ul {
+	display: flex;
 }
 
 li {
 	margin-top: 20px;
 }
 
-.d1 {
+.l2 {
+	margin-left: 25px;
+}
+
+.d01 {
+	color: darkorange;
+	text-decoration: underline;
+	text-decoration-color: darkorange;
+	text-underline-offset: 5px;
+	letter-spacing: 2px;
+}
+
+.d02 {
 	text-decoration: underline white;
 	text-underline-offset: 5px;
 	letter-spacing: 2px;
 }
 
-.d1:hover {
+.d01:hover,
+.d02:hover {
 	transition: all 0.3s;
 	text-decoration: underline;
 	text-underline-offset: 5px;
 	color: darkorange;
 }
 
-h2 {
-	color: darkorange;
-	margin-left: 50px;
-	margin-top: 50px;
-	letter-spacing: 3px;
-}
-
-.a1{
-	margin-top: 0px;
-
-}
-
-.ae {
-	margin-bottom: 80px;
-}
-
-section {
-	margin-left: 50px;
+.s1 {
+	margin-top: px;
 }
 
 img {
 	width: 20vw;
-	margin-top: 20px;
-	border-radius: 10px;
+	object-fit : contain;
+	margin: 100px;
+	margin-top: 150px;
 }
 
-.img2 {
-	margin-left: 20px;
+img {
+	overflow: hidden;
+	transition: transform .6s;
 }
 
-p {
-	margin-top: 20px;
-	width: 65vw;
-	line-height: 35px;
+img:hover {
+	transform: scale(1.1);
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.imgg {
+	width: 5vw;
+}
+
+.imgggg {
+	width: 16vw;
+}
+
+.imggggg {
+	width: 8vw;
+}
+
+.imgggggg {
+	width: 11vw;
+}
+
+.imggggggg {
+	width: 30vw;
+}
+
+.bexel {
+	width: 7.5vw;
+}
+
+.i1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+article {
+	margin: 20px;
+	display: flex;
+}
+
+section {
+	margin-top: 80px;
 }
 
 .d2 {
@@ -118,72 +153,4 @@ p {
 	border: 1.5px solid darkorange;
 	color: darkorange;
 	transition: all 0.3s;
-}
-
-
-
-@media screen and (max-width: 720px) {
-	h1 {
-		font-size: 24px;
-	}
-
-	h2 {
-		font-size: 20px;
-	}
-
-	nav {
-		font-size: 15px;
-	}
-
-	p {
-		font-size: 14px;
-	}
-
-}
-
-
-@media screen and (max-width: 500px) {
-	h1 {
-		font-size: 22px;
-
-	}
-
-	img {
-		width: 22vw;
-	}
-
-	p {
-		width: 60vw;
-		line-height: 32px;
-	}
-
-	header {
-		margin-bottom: 50px;
-	}
-
-
-	h1 {
-		margin-right: 22px;
-	}
-
-	.top,
-	.back {
-		font-size: 12px;
-		width: 33px;
-		height: 16px;
-	}
-
-	nav {
-		margin-right: 30px;
-		margin-top: 10px;
-	}
-
-	h2 {
-		margin-left: 30px;
-	}
-
-	section {
-		margin-left: 30px;
-	}
-
 }
