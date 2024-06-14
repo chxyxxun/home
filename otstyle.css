@@ -100,3 +100,28 @@ p {
 	color: darkorange;
 	transition: all 0.3s;
 }
+
+@media screen and (max-width: 1200px) {
+	p {
+		font-size: 3vh;
+		line-height: 50px;
+		width: 60vw;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	p {
+		font-size: 3vh;
+		line-height: 50px;
+		width: 80vw;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	p {
+		font-size: 3vh;
+		line-height: 50px;
+		width: 80vw;
+		margin-top: 25px;
+	}
+}

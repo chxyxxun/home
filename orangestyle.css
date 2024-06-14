@@ -65,9 +65,10 @@ li {
 }
 
 img {
-	width: 20vw;
+	width: 320px;
 	object-fit : contain;
-	margin: 100px;
+	margin-left: 100px;
+	margin-right: 100px;
 	margin-top: 150px;
 }
 
@@ -83,7 +84,7 @@ img:hover {
 }
 
 .imgg {
-	width: 5vw;
+	width: 80px;
 }
 
 .imgggg {
@@ -153,4 +154,54 @@ section {
 	border: 1.5px solid darkorange;
 	color: darkorange;
 	transition: all 0.3s;
+}
+
+@media screen and (max-width: 620px) {
+	h1 {
+		font-size: 24px;
+		writing-mode: vertical-rl;
+	}
+
+	nav {
+		font-size: 20px;
+		writing-mode: vertical-lr;
+	}
+
+	ul {
+		display: block;
+	}
+
+	li {
+		margin-left: 20px;
+	}
+
+	img {
+		width: 60vw;
+		object-fit : contain;
+		margin-left: 90px;
+		margin-right: 90px;
+		margin-top: 150px;
+	}
+
+	.o1 {
+		width: 250px;
+	} 
+
+	.imggggg {
+		width: 100px;
+	}
+
+	.imgggggg {
+		width: 130px;
+	}
+
+	.imgggggg {
+		width: 25vw;
+	}
+
+	.bexel {
+		width: 15vw;
+}
+
+
 }
