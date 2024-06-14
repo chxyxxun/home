@@ -55,7 +55,7 @@ section {
 
 p {
 	color: crimson;
-	font-size: 45px;
+	font-size: 5vh;
 	line-height: 80px;
 	margin-bottom: 8px;
 	width: 70vw;
@@ -99,4 +99,20 @@ p {
 	border: 1.5px solid crimson;
 	color: crimson;
 	transition: all 0.3s;
+}
+
+@media screen and (max-width: 1200px) {
+	p {
+		font-size: 3vh;
+		line-height: 50px;
+		width: 60vw;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	p {
+		font-size: 3vh;
+		line-height: 50px;
+		width: 80vw;
+	}
 }
