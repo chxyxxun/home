@@ -67,7 +67,8 @@ li {
 img {
 	width: 320px;
 	object-fit : contain;
-	margin: 100px;
+	margin-left: 100px;
+	margin-right: 100px;
 	margin-top: 150px;
 }
 
@@ -148,9 +149,13 @@ section {
 }
 
 @media screen and (max-width: 620px) {
-	nav,
 	h1 {
 		font-size: 24px;
+		writing-mode: vertical-rl;
+	}
+
+	nav {
+		font-size: 20px;
 		writing-mode: vertical-rl;
 	}
 
@@ -165,7 +170,8 @@ section {
 	img {
 		width: 60vw;
 		object-fit : contain;
-		margin: 70px;
+		margin-left: 70px;
+		margin-right: 70px;
 		margin-top: 150px;
 	}
 
@@ -174,7 +180,7 @@ section {
 	}
 
 	.r1 {
-		width: 460px;
+		width: 80vw;
 	}
 
 	.r2 {
@@ -182,7 +188,11 @@ section {
 	}
 
 	.r3 {
-		width: 350px;
+		width: 65vw;
+	}
+
+	.r4 {
+		width: 55vw;
 	}
 
 
