@@ -15,7 +15,6 @@ h1 {
 	position: fixed;
 	color: steelblue;
 	letter-spacing: 5px;
-	margin-left: 50px;
 	font-weight: normal;
 }
 
@@ -23,8 +22,8 @@ nav {
 	position: fixed;
 	margin: 25px;
 	font-size: 17px;
-	top: 5px;
-	right: 25px;
+	margin-top: 0px;
+	right: 30px;
 	margin-left: 50px;
 	font-size: 22px;
 }
