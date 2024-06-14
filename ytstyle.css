@@ -1,0 +1,125 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+	word-break: keep-all;
+	color: black;
+}
+
+h1 {
+	color: #FFB900;
+	letter-spacing: 5px;
+	margin: 25px;
+	margin-bottom: 30px;
+}
+
+li {
+	margin-top: 20px;
+}
+
+.d1 {
+	text-decoration: underline white;
+	text-underline-offset: 5px;
+	letter-spacing: 2px;
+}
+
+.d1:hover {
+	transition: all 0.3s;
+	text-decoration: underline;
+	text-underline-offset: 5px;
+	color: #FFB900;
+}
+
+img {
+	width: 20vw;
+	object-fit : contain;
+	margin: 50px;
+	margin-top: 150px;
+}
+
+.imgg {
+	width: 8vw;
+}
+
+article {
+	margin: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+section {
+	display: flex;
+}
+
+p {
+	color: #FFB900;
+	font-size: 45px;
+	line-height: 80px;
+	margin-bottom: 8px;
+	width: 70vw;
+	text-align: center;
+	margin-top: 120px;
+}
+
+.d3 {
+	position: fixed;
+	bottom: 25px;
+	left: 25px;
+}
+
+.back {
+	font-size: 18px;
+	width: 46px;
+	height: 22px;
+	border-radius: 100px;
+	border: 1.5px solid black;
+	background: none;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+}
+
+.back:hover {
+	border: 1.5px solid #FFB900;
+	color: #FFB900;
+	transition: all 0.3s;
+}
+
+@media screen and (max-width: 1200px) {
+	p {
+		font-size: 3vh;
+		line-height: 50px;
+		width: 60vw;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	p {
+		font-size: 3vh;
+		line-height: 50px;
+		width: 80vw;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	p {
+		font-size: 3vh;
+		line-height: 50px;
+		width: 80vw;
+		margin-top: 30px;
+	}
+
+	.pp {
+		margin-top: 30px;
+	}
+
+	.back {
+		font-size: 12px;
+		width: 33px;
+		height: 16px;
+	}
+}
