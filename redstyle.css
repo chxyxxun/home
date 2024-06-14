@@ -7,11 +7,15 @@
 	color: black;
 }
 
+header {
+	margin: 30px;
+}
+
 h1 {
 	position: fixed;
 	color: crimson;
 	letter-spacing: 5px;
-	margin: 25px;
+
 	margin-left: 50px;
 	font-weight: normal;
 }
