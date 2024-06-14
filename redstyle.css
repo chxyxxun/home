@@ -146,3 +146,44 @@ section {
 	color: crimson;
 	transition: all 0.3s;
 }
+
+@media screen and (max-width: 620px) {
+	nav,
+	h1 {
+		font-size: 24px;
+		writing-mode: vertical-rl;
+	}
+
+	ul {
+		display: block;
+	}
+
+	li {
+		margin-left: 20px;
+	}
+
+	img {
+		width: 60vw;
+		object-fit : contain;
+		margin: 70px;
+		margin-top: 150px;
+	}
+
+	.imgg {
+		width: 80px;
+	}
+
+	.r1 {
+		width: 460px;
+	}
+
+	.r2 {
+		width: 480px;
+	}
+
+	.r3 {
+		width: 350px;
+	}
+
+
+}
