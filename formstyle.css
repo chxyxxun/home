@@ -19,7 +19,6 @@
 nav {
 	position: fixed;
 	margin: 25px;
-	margin-top: ;
 	right: 40px;
 	font-size: 22px;
 	writing-mode: vertical-lr;
@@ -107,10 +106,9 @@ img:hover {
 	}
 
 	nav {
-		position: static;
 		margin: 25px;
-		margin-bottom: 0px;	
-		font-size: 22px;
+		right: 0px;
+		bottom: 350px;
 		writing-mode: vertical-lr;
 	}
 
@@ -119,8 +117,18 @@ img:hover {
 	}
 
 	li {
-		margin-top: 20px;
+		margin-top: 0px;
 		width: 25vw;
+		height: 0px;
+		margin: 0px;
+		text-align: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.d1 {
+		writing-mode: horizontal-tb;
 	}
 }
 

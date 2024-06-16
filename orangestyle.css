@@ -198,6 +198,10 @@ section {
 		width: 34vw;
 	}
 
+	.o3 {
+		width: 28vw;
+	}
+
 }
 
 @media screen and (max-width: 500px) {
