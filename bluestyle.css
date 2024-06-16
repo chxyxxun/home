@@ -89,6 +89,10 @@ img:hover {
 	width: 600px;
 }
 
+.b2 {
+	width: 200px;
+}
+
 .imgggggg {
 	width: 500px;
 }
@@ -173,6 +177,10 @@ section {
 
 	.b1 {
 		width: 90vw;
+	}
+
+	.b2 {
+		width: 36vw;
 	}
 
 	.imgggggg {
