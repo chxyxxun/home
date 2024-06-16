@@ -71,4 +71,10 @@ section {
 	nav {
 		font-size: 18px;
 	}
+
+	.back {
+		font-size: 12px;
+		width: 33px;
+		height: 16px;
+	}
 }

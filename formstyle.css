@@ -130,10 +130,18 @@ img:hover {
 	.d1 {
 		writing-mode: horizontal-tb;
 	}
+
+	.back {
+		font-size: 12px;
+		width: 33px;
+		height: 16px;
+	}
 }
 
 @media screen and (max-width: 700px) {
-	.d1,
+	.d1 {
+		font-size: 15px;
+	}
 	nav {
 		font-size: 18px;
 	}
