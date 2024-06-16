@@ -69,8 +69,8 @@ li {
 img {
 	width: 320px;
 	object-fit : contain;
-	margin-left: 100px;
-	margin-right: 100px;
+	margin-left: 80px;
+	margin-right: 80px;
 	margin-top: 150px;
 }
 
@@ -85,28 +85,24 @@ img:hover {
 	cursor: pointer;
 }
 
-.imgg {
-	width: 80px;
-}
-
-.imgggg {
-	width: 16vw;
-}
-
 .imggggg {
-	width: 8vw;
+	width: 120px;
 }
 
 .imgggggg {
-	width: 11vw;
-}
-
-.imggggggg {
-	width: 30vw;
+	width: 180px;
 }
 
 .bexel {
-	width: 7.5vw;
+	width: 120px;
+}
+
+.o1 {
+	width: 180px;
+}
+
+.o2 {
+	width: 260px;
 }
 
 .i1 {
@@ -171,27 +167,31 @@ section {
 	}
 
 	img {
-		width: 60vw;
+		width: 55vw;
 		object-fit : contain;
 		margin-left: 90px;
 		margin-right: 90px;
 		margin-top: 150px;
 	}
 
-	.o1 {
-		width: 42vw;
-	} 
-
 	.imggggg {
-		width: 17vw;
+		width: 20vw;
 	}
 
 	.imgggggg {
-		width: 22vw;
+		width: 26vw;
 	}
 
 	.bexel {
-		width: 15vw;
+		width: 17vw;
+	}
+
+	.o1 {
+		width: 25vw;
+	}
+
+	.o2 {
+		width: 34vw;
 	}
 
 }

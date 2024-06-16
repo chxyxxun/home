@@ -15,17 +15,34 @@ article {
 h1 {
 	margin-bottom: 30px;
 	letter-spacing: 5px;
+	font-weight: normal;
+}
+
+article {
+	margin: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 p {
-	line-height: 35px;
+	font-size: 28px;
+	line-height: 70px;
 	margin-bottom: 8px;
+	width: 70vw;
+	text-align: center;
+    margin-top: 100px;
 }
 
 .p1 {
-	margin-top: 30px;
+	margin-top: 70px;
 	color: gray;
 	font-size: 15px;
+	line-height: 30px;
+}
+
+.p2 {
+	margin-top: 25px;
 }
 
 
@@ -50,23 +67,41 @@ p {
 }
 
 .back:hover {
-	border: 1.5px solid #FF9933;
-	color: #FF9933;
+	border: 1.5px solid ;
+	color: ;
+}
+
+@media screen and (max-width: 1200px) {
+	p {
+		font-size: 3vh;
+		line-height: 50px;
+		width: 60vw;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	h1 {
+		font-size: 23px;
+	}
+
+	p {
+		font-size: 2.5vh;
+		line-height: 45px;
+		width: 80vw;
+	}
 }
 
 @media screen and (max-width: 500px) {
+	p {
+		font-size: 2.5vh;
+		line-height: 45px;
+		width: 80vw;
+		margin-top: 30px;
+	}
+
 	.back {
 		font-size: 12px;
 		width: 33px;
 		height: 16px;
 	}
-
-	h1 {
-		font-size: 22px;
-	}
-
-	.p1,
-	p {
-		font-size: 14px;
-	}
- }
+}
