@@ -131,6 +131,10 @@ img:hover {
 		writing-mode: horizontal-tb;
 	}
 
+	section {
+		margin-top: 50px;
+	}
+
 	.back {
 		font-size: 12px;
 		width: 33px;
