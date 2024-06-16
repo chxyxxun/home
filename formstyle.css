@@ -21,7 +21,6 @@ nav {
 	margin: 25px;
 	margin-top: ;
 	right: 40px;
-	margin-right: ;
 	font-size: 22px;
 	writing-mode: vertical-lr;
 }
@@ -105,6 +104,23 @@ img:hover {
 	.d1,
 	nav {
 		font-size: 20px;
+	}
+
+	nav {
+		position: static;
+		margin: 25px;
+		margin-bottom: 0px;	
+		font-size: 22px;
+		writing-mode: vertical-lr;
+	}
+
+	ul {
+		display: block;
+	}
+
+	li {
+		margin-top: 20px;
+		width: 25vw;
 	}
 }
 
