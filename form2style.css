@@ -68,9 +68,9 @@ p {
 @media screen and (max-width: 500px) {
 	p {
 		font-size: 2vh;
-		line-height: 50px;
+		line-height: 30px;
 		width: 80vw;
-		margin-top: 50px;
+		margin-top: 1500px;
 	}
 
 	.back {
